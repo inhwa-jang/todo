@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Today</title>
+    <script src="https://kit.fontawesome.com/9ed343edfa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="logo">
+            <img src="/assets/illust.png" alt="main_logo" />
+        </div>
+        
+        <div class="desktop-logo">
+            <img src="assets/checking girl.png" alt="desktop_logo" />
+        </div>
+        
+        <!-- wrapper -->
+        <div class="wrapper">
+            <h1>To-do Today</h1>
+            <div class="input-group">
+                <input type="text" placeholder="add your new todo">
+                <button class="fill-button"><i class="fas fa-plus"></i></button>
+            </div>
+
+            <!-- lacal storage에서 data를 받아온다 -->
+            <ul class="todoList">
+            </ul>
+
+            <!-- footer -->
+            <div class="footer">
+                <span>You have <span class="pendingNumb"></span> pending tasks</span>
+                <button>Clear All</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
