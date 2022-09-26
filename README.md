@@ -1,5 +1,6 @@
 # To Do List
-### 웹-모바일 반응형 
+반응형웹 `Javascript` 투두리스트 연습 
+https://inhwa-jang.github.io/todo/
 ###### 이미지 소스 (무료 소스) : https://icons8.com/illustrations/illustration/pablo-240 
 ###### 참고 소스 코드: JS(Youtube:CodingNepal)
 
